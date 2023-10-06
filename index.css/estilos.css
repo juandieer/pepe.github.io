@@ -1,0 +1,494 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación superior */
+header {
+    background-color: #000;
+    color: #fff;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para la dirección y el teléfono */
+.direccion,
+.telefono {
+    font-size: 20px;
+}
+
+/* Estilo para el icono de la dirección y el teléfono */
+.ubicacion-icon img,
+.telefono-icon img {
+    margin-left: 34px;
+    width: 66px;
+    height: 62px;
+    margin-right: 9px;
+}
+
+/* Ajuste del espacio entre los iconos y el número de teléfono */
+.telefono-icon {
+    display: flex;
+    align-items: center;
+}
+
+.telefono-icon img {
+    margin-left: 34px;
+    width: 66px;
+    height: 62px;
+    margin-right: 9px;
+}
+
+/* Ajuste del espacio entre el número de teléfono y los iconos de redes sociales */
+.telefono {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Iconos a la derecha */
+.iconos-derecha {
+    display: flex;
+    align-items: center;
+}
+
+/* Alineación a la derecha */
+.iconos-derecha {
+    margin-left: auto;
+}
+
+/* Estilo para cada icono en .iconos-derecha */
+.iconos-derecha .icon img {
+    width: 66px;
+    height: 62px; /* Altura específica */
+    margin-left: 5px; /* Espacio entre los iconos */
+}
+
+/* Estilo específico para los iconos de la derecha */
+.imagshop img,
+.imainsta img,
+.imagface img,
+.imagwhatsapp img {
+    width: 66px;
+    height: 62px;
+    margin-left: 5px; /* Espacio entre los iconos */
+}
+
+
+
+.barra-inferior {
+    background-color: #fff; /* Fondo blanco */
+    height: 121px;; /* Altura de la barra */
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    justify-content: space-between; /* Espacio uniforme entre los elementos */
+}
+
+/* Estilos para cada enlace en la barra inferior */
+.barra-inferior a {
+    text-decoration: none;
+    color: #000;
+    font-size: 26px;
+    margin: 1px 89px;
+    margin-left: 88px;
+}
+
+/* Estilos para el logo en la barra inferior */
+.barra-inferior .logo img {
+    width: 165px;
+    height: 165px;
+}
+
+/* Ajuste de espacio para la izquierda y derecha del logo */
+.barra-inferior .logo {
+    margin: 0 10px;
+}
+
+.linea-separadora {
+    border: 6px solid #00A29C; /* Color de la línea */
+    margin: 0; /* Elimina el margen por defecto del hr */
+    width: 100%; /* Ancho completo */
+}
+
+.portada {
+    height: 595px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden; /* Evita que la imagen sobresalga de la sección */
+}
+
+.portada img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.linea {
+    border: 4px solid #00A29C; /* Cambia el color según tus preferencias */
+    margin: 0; /* Elimina el espacio predeterminado */
+}
+
+/* Estilos para los cuadros de imágenes */
+.cuadros-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.fila {
+    display: flex;
+    margin-bottom: 20px; /* Margen entre las filas */
+}
+
+.cuadro-imagen {
+    flex: 1;
+    margin: 0 10px; /* Margen entre las imágenes */
+}
+
+.cuadro-imagen img {
+    width: 100%; /* Para que las imágenes ocupen el 100% del contenedor */
+    height: auto; /* Para mantener la proporción de la imagen */
+
+
+   }
+    /* Agrega estos estilos para centrar el título en la página */
+.titulo-productos {
+    text-align: center;
+    padding: 50px 0; /* Ajusta el espaciado superior e inferior según sea necesario */
+}
+
+.titulo-productos h1 {
+    color: #000; /* Cambia el color del texto según tus preferencias */
+    font-size: 36px; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+
+/* Agrega estos estilos para centrar el título en la página */
+.titulo-productos {
+    text-align: center;
+    padding: 50px 0; /* Ajusta el espaciado superior e inferior según sea necesario */
+}
+
+.titulo-productos h1 {
+    color: #000; /* Cambia el color del texto según tus preferencias */
+    font-size: 36px; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+/* Sección de productos */
+
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #00A29C, #fff); /* Fondo de degradado */
+    padding: 20px; /* Margen interior para dar espacio al contenido */
+    border-top: 1px solid #00A29C; /* Línea superior con el color base del degradado */
+}
+
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estilo para cada producto */
+.producto {
+    width: 30%; /* Ajusta según el diseño deseado */
+    margin: 10px; /* Espacio entre productos */
+    text-align: center;
+}
+
+/* Estilo para la imagen del producto */
+.producto img {
+    width: 30%; /* La imagen ocupará el 100% del contenedor */
+    height: auto; /* Se ajusta automáticamente la altura proporcionalmente */
+}
+
+/* Estilo para el contenido del producto */
+.barra-compra,
+.nombre-producto,
+.precio-producto {
+    margin-top: 12px; /* Espacio entre el contenido del producto y la imagen */
+}
+
+/* Estilo para el contenedor del producto */
+/* Estilo para el contenedor del producto */
+.producto {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    overflow: hidden; /* Evita que los bordes se extiendan si el contenido es más grande */
+}
+
+/* Estilo para el botón de compra */
+.barra-compra button {
+   background-color: #00A29C;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 4px solid #007C74;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Cambiar color de fondo al pasar el ratón */
+.barra-compra button:hover {
+    background-color: #007C74;
+}
+
+/* Estilo para la información del producto */
+.informacion-producto {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para el nombre del producto */
+.nombre-producto {
+    font-weight: bold;
+}
+
+/* Estilo para el precio */
+.precio-producto {
+    color: #00A29C;
+}
+
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px; /* Ajusta el margen superior según tus preferencias */
+}
+
+/* Estilo para cada servicio */
+.servicio {
+    width: 22%; /* Ajusta el ancho según el diseño deseado */
+    border: 2px solid #00A29C; /* Borde con color #00A29C */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    text-align: center;
+    background-color: #f5f5f5; /* Fondo de color claro */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el ancho y alto totales */
+}
+
+/* Estilo para la imagen del servicio */
+.servicio img {
+    width: 101%;
+    border: 3px solid #02918c;
+    border-radius: 51px;
+}
+
+/* Estilo para el nombre del servicio */
+.nombre-servicio {
+    font-size: 20px; /* Tamaño de fuente para el nombre del servicio */
+    font-weight: bold;
+    margin-top: 10px; /* Espaciado superior */
+}
+
+/* Estilo para la descripción del servicio */
+.descripcion-servicio {
+    margin-top: 10px; /* Espaciado superior */
+}
+
+/* Estilo para el enlace de más información */
+.enlace-mas-informacion a {
+    display: inline-block;
+    margin-top: 10px; /* Espaciado superior */
+    padding: 10px 20px; /* Relleno del enlace */
+    background-color: #00A29C; /* Fondo de color #00A29C */
+    color: #fff; /* Color del texto */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición de color al pasar el ratón */
+}
+
+/* Cambiar color de fondo al pasar el ratón */
+.enlace-mas-informacion a:hover {
+    background-color: #007C74; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilo para la sección de ubicación */
+.ubicacion {
+    text-align: center; /* Centrar el contenido */
+    margin-top: 50px; /* Ajusta el margen superior según tus preferencias */
+}
+
+/* Estilo para el título de la ubicación */
+.ubicacion h2 {
+    color: #00A29C; /* Color del título */
+}
+
+/* Estilo para la descripción */
+.descripcion {
+    margin-bottom: 20px; /* Ajusta el margen inferior según tus preferencias */
+}
+
+/* Estilo para la caja de ubicación */
+.caja-ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los elementos horizontalmente */
+    border: 2px solid #00A29C; /* Borde con color #00A29C */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Ajusta el margen superior según tus preferencias */
+}
+
+/* Estilo para el mapa */
+.mapa {
+    width: 100%; /* Ocupa el ancho completo de la caja */
+    height: 450px; /* Ajusta la altura según tus preferencias */
+    border-radius: 0 0 10px 10px; /* Bordes redondeados solo en la parte inferior */
+    overflow: hidden; /* Evitar que el mapa sobresalga de la caja */
+}
+
+/* Estilo para el mapa dentro de la caja */
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/* Estilo para la sección de contacto */
+/* Estilo para la sección de contacto */
+.contacto {
+    text-align: center; /* Centrar el contenido */
+    margin-top: 50px; /* Ajusta el margen superior según tus preferencias */
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px; /* Ajusta el espaciado interno según tus preferencias */
+    border: 1px solid #00A29C; /* Borde de color #00A29C */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex; /* Usa el modelo de caja flexible para alinear elementos */
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Alinea los elementos horizontalmente al centro */
+}
+
+/* Estilo para el título de la sección de contacto */
+.contacto h2 {
+    margin-bottom: 20px; /* Ajusta el margen inferior según tus preferencias */
+    color: #00A29C; /* Color del texto del título */
+}
+
+
+/* Estilo para el formulario de contacto */
+.contacto form {
+    display: flex; /* Usa el modelo de caja flexible para alinear elementos */
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    margin-top: 20px; /* Ajusta el margen superior según tus preferencias */
+}
+
+/* Estilo para las etiquetas del formulario */
+.contacto label {
+    display: block; /* Hace que las etiquetas se muestren en una línea */
+    margin-bottom: 5px; /* Ajusta el margen inferior según tus preferencias */
+    color: #00A29C; /* Color del texto de la etiqueta */
+}
+
+/* Estilo para los campos de entrada del formulario */
+.contacto input {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Ajusta el espaciado interno según tus preferencias */
+    margin-bottom: 15px; /* Ajusta el margen inferior según tus preferencias */
+    border: 1px solid #00A29C; /* Borde de color #00A29C */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el botón del formulario */
+.contacto button {
+    background-color: #00A29C; /* Fondo de color #00A29C */
+    color: #fff; /* Texto en color blanco */
+    padding: 10px; /* Ajusta el espaciado interno según tus preferencias */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s ease; /* Transición de color al pasar el ratón */
+}
+
+/* Cambiar color de fondo al pasar el ratón */
+.contacto button:hover {
+    background-color: #007C74; /* Cambia el color al pasar el ratón */
+}
+    footer{  
+background-color: #000;
+    color: #fff;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para la dirección y el teléfono */
+.direccion,
+.telefono {
+    font-size: 20px;
+}
+
+/* Estilo para el icono de la dirección y el teléfono */
+.ubicacion-icon img,
+.telefono-icon img {
+    margin-left: 34px;
+    width: 66px;
+    height: 62px;
+    margin-right: 9px;
+}
+
+/* Ajuste del espacio entre los iconos y el número de teléfono */
+.telefono-icon {
+    display: flex;
+    align-items: center;
+}
+
+.telefono-icon img {
+    margin-left: 34px;
+    width: 66px;
+    height: 62px;
+    margin-right: 9px;
+}
+
+/* Ajuste del espacio entre el número de teléfono y los iconos de redes sociales */
+.telefono {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Iconos a la derecha */
+.iconos-derecha {
+    display: flex;
+    align-items: center;
+}
+
+/* Alineación a la derecha */
+.iconos-derecha {
+    margin-left: auto;
+}
+
+/* Estilo para cada icono en .iconos-derecha */
+.iconos-derecha .icon img {
+    width: 66px;
+    height: 62px; /* Altura específica */
+    margin-left: 5px; /* Espacio entre los iconos */
+}
+
+/* Estilo específico para los iconos de la derecha */
+.imagshop img,
+.imainsta img,
+.imagface img,
+.imagwhatsapp img {
+    width: 66px;
+    height: 62px;
+    margin-left: 5px; /* Espacio entre los iconos */
+}
+
